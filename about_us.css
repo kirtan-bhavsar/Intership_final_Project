@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.secRight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     height: fit-content;
+     width: auto;
+    max-width: 100%;  
+    /* max-width: 100%;
+            max-height: 100vh;
+            margin: auto; */
+     /* margin: auto;  */
+    
+ 
+ }
+
+.sectionTag{
+    color: bisque;  
+    margin-left: 25px;
+    font-size: xx-large;
+}
+
+.sectionSubtag{
+    color: bisque;
+    padding: 25px;
+}
+
+.sectionSubSubtag{
+    color: bisque;
+    padding: 25px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+ 
+/* .backgroundforAbout_us{
+    background: rgba(0, 0, 0,0.7) url(Ashtang-Yoga.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 0;
+     display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 1000%; 
+    height: 100%;
+    
+
+} */
+
+
+
+ .imageabus{
+    /* background-blend-mode: darken;
+    background: rgba(0, 0, 0,0.7) 
+    background-size: cover;
+    background-blend-mode: darken; */
+    filter: brightness(40%);
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+} 
