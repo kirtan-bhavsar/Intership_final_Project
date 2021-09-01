@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bookings.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <navigation_bar class="navigation_bar background">
+        <ul class="navigation_list">
+            <div class="logo"><img src="yoga-gettyimages-1142820079-promo.jpg" alt="yog-image" height="40" width="40"></div>
+            <li><a href="Final_Project.html">Home</a></li>
+           <li><a href="about_us.html">About</a></li>  
+            <li><a href="service.html">Services</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn_sm">Search</button>
+        </div>
+    </navigation_bar>
+
+    <div class="register">
+        <form action="" id="register" method="POST">
+            <h2>Book your stay!!</h2>
+            <label>First name </label><br>
+            <input type="text" name="Fname" id="name" placeholder="Enter your first name"><br><br>
+            <label>Last name </label><br>
+            <input type="text" name="Lname" id="name" placeholder=" Enter your Lastt name"><br><br>
+            
+            <label>Mobile Number</label><br>
+            <select id="ph">
+                <option>+91</option>
+                <option>+92</option>
+                <option>+93</option>
+                <option>+94</option>
+                <option>+95</option>
+            </select>
+            <input type="number" name="Mnum" id="num" placeholder="Enter your mobile number"><br><br>
+            <label>E-mail</label><br>
+            <input type="email" name="email" id="name" placeholder="Enter your e-mail"><br><br>
+
+            <label for="start">Start date</label><br>
+
+<input type="date" id="start" name="trip-start"
+       value="2021-09-01"
+       min="2001-02-04" max="2060-04-02"><br><br>
+
+       
+       <label for="start">End date</label><br>
+
+       <input type="date" id="start" name="end-trip"
+       value="2021-09-01"
+       min="2001-02-04" max="2060-04-02"><br><br>
+
+            <input type="submit" value="Submit" id="sub">
+        </form>
+    </div>
+
+
+</body>
+</html>
