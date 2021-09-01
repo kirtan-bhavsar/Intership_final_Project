@@ -1,0 +1,10 @@
+</section>
+    <section class="secRight">
+        <div class="paras">
+        <p class="sectionTag text-big">The end of your search is here.</p>
+        <p class="sectionSubTag text-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit incidunt, ex earum non beatae reiciendis eum excepturi ipsum quibusdam fugit quod deserunt assumenda quia sit ullam alias laudantium. Alias, sequi.</p>
+    </div>
+        <div class="thumbnail">
+             <img src="Ashtang-Yoga.jpg" alt="yoga image" class="imgFluid">
+         </div>
+    </section>
