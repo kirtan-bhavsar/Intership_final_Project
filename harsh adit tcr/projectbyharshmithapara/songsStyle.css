@@ -1,0 +1,36 @@
+.container{
+    width: 70%;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    height: 180px;
+    margin: auto;
+    margin-top: 15px;
+    backdrop-filter: blur(20px);
+    
+}
+
+.songsHeader{
+    background-color: rgba(0, 0, 0, 0.192);
+    width: auto;
+    margin: 0px;
+    color: azure;
+    margin: auto;
+
+}
+
+body{
+    background-image: url(songsBG.jpg)
+    
+}
+
+.songs{
+    height: 150px;
+    margin: 15px;
+    float: left;
+    
+}
+
+.songName{
+    float: left;
+    font-size: 20px;
+    color: white;
+}
